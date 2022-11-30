@@ -39,9 +39,9 @@ function App() {
   return (
     <>
         <div className="header">
-          <h1>MyAnimeList</h1>
+          <h1>🏆Mi Lista de Anime Favoritos</h1>
           <div className="search-box">
-              <input type="search" placeholder="Search your anime" 
+              <input type="search" placeholder="Buscar tu Anime" 
               onChange={(e)=>setSearch(e.target.value)}/>
           </div>
         </div>
@@ -60,7 +60,7 @@ function App() {
                 handleList={(anime)=>addTo(anime)}
                 />
             </div>
-            <h2 className="text-heading">My List</h2>
+            <h2 className="text-heading">Mi Lista</h2>
             <div className="row">
                 <AnimeList 
                 animelist={myAnimeList}
