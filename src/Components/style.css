@@ -73,6 +73,9 @@ body{
 }
 .anime-content img{
     width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .overlay{
     position: absolute;
@@ -105,4 +108,8 @@ body{
     background-color: rgb(211,177,145);
     font-size: 1rem;
     font-weight: bold;
+}
+
+h3{
+    color: rgb(8, 8, 54);
 }
